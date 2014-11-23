@@ -5,7 +5,7 @@ A simple horizontal ColorPicker for iOS apps
 
 Example
 ============
-![PreviewImage](https://raw.github.com/Cclleemm/ProductTour/master/screenshots/CRColorPicker.gif?raw=true) 
+![PreviewImage](https://raw.github.com/Cclleemm/CRColorPicker/master/screenshots/CRColorPicker.gif?raw=true) 
 
 Integration
 ============
