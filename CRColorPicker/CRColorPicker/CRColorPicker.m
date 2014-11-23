@@ -29,6 +29,20 @@
     return self;
 }
 
+-(id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        [self setBackgroundColor:[UIColor darkGrayColor]];
+        //Set background gradient image
+        backgroundGradientImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"colorpicker-gradient"]];
+        [backgroundGradientImageView setFrame:self.bounds];
+        [self addSubview:backgroundGradientImageView];
+    }
+    return self;
+}
+
 
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
