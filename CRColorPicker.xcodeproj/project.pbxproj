@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4AC0701A220FCF007543B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC06F1A220FCF007543B1 /* main.m */; };
+		EB4AC0731A220FCF007543B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC0721A220FCF007543B1 /* AppDelegate.m */; };
+		EB4AC0761A220FCF007543B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC0751A220FCF007543B1 /* ViewController.m */; };
+		EB4AC0791A220FCF007543B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC0771A220FCF007543B1 /* Main.storyboard */; };
+		EB4AC07B1A220FCF007543B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC07A1A220FCF007543B1 /* Images.xcassets */; };
+		EB4AC07E1A220FCF007543B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC07C1A220FCF007543B1 /* LaunchScreen.xib */; };
+		EB4AC08A1A220FCF007543B1 /* CRColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC0891A220FCF007543B1 /* CRColorPickerTests.m */; };
+		EB4AC0991A2210DC007543B1 /* CRColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC0981A2210DC007543B1 /* CRColorPicker.m */; };
+		EB4AC09B1A221147007543B1 /* colorpicker-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC09A1A221147007543B1 /* colorpicker-gradient.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4AC0841A220FCF007543B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4AC0621A220FCF007543B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4AC0691A220FCF007543B1;
+			remoteInfo = CRColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4AC06A1A220FCF007543B1 /* CRColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC06E1A220FCF007543B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC06F1A220FCF007543B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4AC0711A220FCF007543B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB4AC0721A220FCF007543B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB4AC0741A220FCF007543B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB4AC0751A220FCF007543B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB4AC0781A220FCF007543B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4AC07A1A220FCF007543B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB4AC07D1A220FCF007543B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB4AC0831A220FCF007543B1 /* CRColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC0881A220FCF007543B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC0891A220FCF007543B1 /* CRColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRColorPickerTests.m; sourceTree = "<group>"; };
+		EB4AC0971A2210DC007543B1 /* CRColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRColorPicker.h; path = CRColorPicker/CRColorPicker.h; sourceTree = "<group>"; };
+		EB4AC0981A2210DC007543B1 /* CRColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRColorPicker.m; path = CRColorPicker/CRColorPicker.m; sourceTree = "<group>"; };
+		EB4AC09A1A221147007543B1 /* colorpicker-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "colorpicker-gradient.png"; path = "CRColorPicker/colorpicker-gradient.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4AC0671A220FCF007543B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC0801A220FCF007543B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4AC0611A220FCF007543B1 = {
+			isa = PBXGroup;
+			children = (
+				EB4AC06C1A220FCF007543B1 /* CRColorPicker */,
+				EB4AC0861A220FCF007543B1 /* CRColorPickerTests */,
+				EB4AC06B1A220FCF007543B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4AC06B1A220FCF007543B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC06A1A220FCF007543B1 /* CRColorPicker.app */,
+				EB4AC0831A220FCF007543B1 /* CRColorPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4AC06C1A220FCF007543B1 /* CRColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC0931A22103F007543B1 /* CRColorPicker */,
+				EB4AC0711A220FCF007543B1 /* AppDelegate.h */,
+				EB4AC0721A220FCF007543B1 /* AppDelegate.m */,
+				EB4AC0741A220FCF007543B1 /* ViewController.h */,
+				EB4AC0751A220FCF007543B1 /* ViewController.m */,
+				EB4AC0771A220FCF007543B1 /* Main.storyboard */,
+				EB4AC07A1A220FCF007543B1 /* Images.xcassets */,
+				EB4AC07C1A220FCF007543B1 /* LaunchScreen.xib */,
+				EB4AC06D1A220FCF007543B1 /* Supporting Files */,
+			);
+			path = CRColorPicker;
+			sourceTree = "<group>";
+		};
+		EB4AC06D1A220FCF007543B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC06E1A220FCF007543B1 /* Info.plist */,
+				EB4AC06F1A220FCF007543B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4AC0861A220FCF007543B1 /* CRColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC0891A220FCF007543B1 /* CRColorPickerTests.m */,
+				EB4AC0871A220FCF007543B1 /* Supporting Files */,
+			);
+			path = CRColorPickerTests;
+			sourceTree = "<group>";
+		};
+		EB4AC0871A220FCF007543B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC0881A220FCF007543B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4AC0931A22103F007543B1 /* CRColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC09A1A221147007543B1 /* colorpicker-gradient.png */,
+				EB4AC0971A2210DC007543B1 /* CRColorPicker.h */,
+				EB4AC0981A2210DC007543B1 /* CRColorPicker.m */,
+			);
+			name = CRColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4AC0691A220FCF007543B1 /* CRColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC08D1A220FCF007543B1 /* Build configuration list for PBXNativeTarget "CRColorPicker" */;
+			buildPhases = (
+				EB4AC0661A220FCF007543B1 /* Sources */,
+				EB4AC0671A220FCF007543B1 /* Frameworks */,
+				EB4AC0681A220FCF007543B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRColorPicker;
+			productName = CRColorPicker;
+			productReference = EB4AC06A1A220FCF007543B1 /* CRColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4AC0821A220FCF007543B1 /* CRColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC0901A220FCF007543B1 /* Build configuration list for PBXNativeTarget "CRColorPickerTests" */;
+			buildPhases = (
+				EB4AC07F1A220FCF007543B1 /* Sources */,
+				EB4AC0801A220FCF007543B1 /* Frameworks */,
+				EB4AC0811A220FCF007543B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4AC0851A220FCF007543B1 /* PBXTargetDependency */,
+			);
+			name = CRColorPickerTests;
+			productName = CRColorPickerTests;
+			productReference = EB4AC0831A220FCF007543B1 /* CRColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4AC0621A220FCF007543B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Clément Raussin";
+				TargetAttributes = {
+					EB4AC0691A220FCF007543B1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EB4AC0821A220FCF007543B1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EB4AC0691A220FCF007543B1;
+					};
+				};
+			};
+			buildConfigurationList = EB4AC0651A220FCF007543B1 /* Build configuration list for PBXProject "CRColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4AC0611A220FCF007543B1;
+			productRefGroup = EB4AC06B1A220FCF007543B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4AC0691A220FCF007543B1 /* CRColorPicker */,
+				EB4AC0821A220FCF007543B1 /* CRColorPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4AC0681A220FCF007543B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC0791A220FCF007543B1 /* Main.storyboard in Resources */,
+				EB4AC07E1A220FCF007543B1 /* LaunchScreen.xib in Resources */,
+				EB4AC07B1A220FCF007543B1 /* Images.xcassets in Resources */,
+				EB4AC09B1A221147007543B1 /* colorpicker-gradient.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC0811A220FCF007543B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4AC0661A220FCF007543B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC0991A2210DC007543B1 /* CRColorPicker.m in Sources */,
+				EB4AC0761A220FCF007543B1 /* ViewController.m in Sources */,
+				EB4AC0731A220FCF007543B1 /* AppDelegate.m in Sources */,
+				EB4AC0701A220FCF007543B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC07F1A220FCF007543B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC08A1A220FCF007543B1 /* CRColorPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4AC0851A220FCF007543B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4AC0691A220FCF007543B1 /* CRColorPicker */;
+			targetProxy = EB4AC0841A220FCF007543B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB4AC0771A220FCF007543B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4AC0781A220FCF007543B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4AC07C1A220FCF007543B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4AC07D1A220FCF007543B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4AC08B1A220FCF007543B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4AC08C1A220FCF007543B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4AC08E1A220FCF007543B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB4AC08F1A220FCF007543B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB4AC0911A220FCF007543B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CRColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRColorPicker.app/CRColorPicker";
+			};
+			name = Debug;
+		};
+		EB4AC0921A220FCF007543B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CRColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRColorPicker.app/CRColorPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4AC0651A220FCF007543B1 /* Build configuration list for PBXProject "CRColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC08B1A220FCF007543B1 /* Debug */,
+				EB4AC08C1A220FCF007543B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4AC08D1A220FCF007543B1 /* Build configuration list for PBXNativeTarget "CRColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC08E1A220FCF007543B1 /* Debug */,
+				EB4AC08F1A220FCF007543B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB4AC0901A220FCF007543B1 /* Build configuration list for PBXNativeTarget "CRColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC0911A220FCF007543B1 /* Debug */,
+				EB4AC0921A220FCF007543B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4AC0621A220FCF007543B1 /* Project object */;
+}
